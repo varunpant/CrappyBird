@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
-<head>
+<h1></h1>
+    <head>
     <meta charset="UTF-8">
 	<meta content="Flappy Bird,game,Crappy Bird,clone,javascript,html5 game,mobile,canvas,flappy bird source" name="keywords"/>
 	<meta name="description" content="Clone of Flappy bird game in javascript using canvas 2d">
@@ -24,10 +24,34 @@
         audio {
             display: none;
         }
+        #evan{
+            display: flex;
+            justify-content: center;
+        }
     </style>
 
 </head>
-
+<audio id="myAudio">
+    <source src="./songs/Evan we love you.mp3" type="audio/mp3">
+  </audio>
+  
+  
+  
+  <div id="evan"><button onclick="playAudio()" type="button">Play Evan we love you</button>
+  <button onclick="pauseAudio()" type="button">Pause</button> </div>
+  
+  <script>
+    var x = document.getElementById("myAudio"); 
+    
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+    </script>
+  
 <body>
 
     <canvas></canvas>
