@@ -24,3 +24,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 Play it [here](http://varunpant.com/resources/CrappyBird/index.html)
+
+## Play online
+
+Also playable on [WASM Arcade](https://www.wasmarcade.online/arcade/crappybird/) — free, no download.
